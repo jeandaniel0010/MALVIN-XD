@@ -10,7 +10,7 @@ if (fs.existsSync(path.resolve('config.env'))) {
 function convertToBool(text, trueValue = 'true') {
   return text === trueValue;
 }
-
+mm
 module.exports = {
   // ===== BOT CORE SETTINGS =====
   SESSION_ID: process.env.SESSION_ID || "", // Your bot's session ID (keep secure)
